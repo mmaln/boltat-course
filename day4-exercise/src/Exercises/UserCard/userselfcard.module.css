@@ -7,6 +7,24 @@
     margin-top: 30px;
 }
 
+.childrenInfo {
+    background-color: lightcyan;
+    width: 350px;
+    display: block;
+    border-radius: 15px;
+    font-family: fantasy;
+    margin: auto;
+}
+
+.marriedInfo {
+    background-color: lightcyan;
+    width: 350px;
+    display: block;
+    border-radius: 15px;
+    font-family: fantasy;
+    margin: auto;
+}
+
 .conContainer {
     display: flex;
     justify-content: center;
@@ -27,4 +45,10 @@ img {
 .footer {
     padding-left: 10px;
     padding-bottom: 15px;
+}
+
+.userCardContainer {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
 }
