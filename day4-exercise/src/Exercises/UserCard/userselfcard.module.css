@@ -5,6 +5,7 @@
     border-radius: 15px;
     font-family: fantasy;
     margin-top: 30px;
+    padding: 15px;
 }
 
 .childrenInfo {
@@ -14,6 +15,7 @@
     border-radius: 15px;
     font-family: fantasy;
     margin: auto;
+    padding: 15px;
 }
 
 .marriedInfo {
@@ -26,6 +28,7 @@
 }
 
 .conContainer {
+    border: 5px;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -36,16 +39,25 @@
     vertical-align: middle;
 }
 
+.image {
+    width: 128px;
+}
+
 img {
     border-radius: 50%;
     vertical-align: middle;
-    margin: 20px;
+    margin: 20px 20px 20px 0px;
+    max-width: 128px;
+    max-height: 128px;
+    width: 100%;
+    height: auto;
 }
 
-.footer {
+
+/*.footer {
     padding-left: 10px;
     padding-bottom: 15px;
-}
+}*/
 
 .userCardContainer {
     display: block;
