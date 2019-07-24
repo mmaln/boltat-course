@@ -1,66 +1,84 @@
-.container {
-    background-color: lightcyan;
-    width: 350px;
-    display: inline-block;
-    border-radius: 15px;
-    font-family: fantasy;
-    margin-top: 30px;
-    padding: 15px;
-}
-
-.childrenInfo {
-    background-color: lightcyan;
-    width: 350px;
-    display: block;
-    border-radius: 15px;
-    font-family: fantasy;
-    margin: auto;
-    padding: 15px;
-}
-
-.marriedInfo {
-    background-color: lightcyan;
-    width: 350px;
-    display: block;
-    border-radius: 15px;
-    font-family: fantasy;
-    margin: auto;
-}
-
-.conContainer {
-    border: 5px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.nameContainer {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.image {
-    width: 128px;
-}
-
-img {
-    border-radius: 50%;
-    vertical-align: middle;
-    margin: 20px 20px 20px 0px;
-    max-width: 128px;
-    max-height: 128px;
-    width: 100%;
-    height: auto;
-}
-
-
-/*.footer {
+    html {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    }
+    
+    .container {
+        background-color: lightcyan;
+        width: 350px;
+        display: inline-block;
+        border-radius: 15px;
+        margin-top: 30px;
+        padding: 15px;
+    }
+    
+    .containerPlus {
+        width: 350px;
+        display: inline-block;
+        border-radius: 15px;
+        margin-top: 30px;
+        padding: 15px;
+        background-color: whitesmoke;
+        filter: blur(1px);
+        box-shadow: 1px 1px 10px rgb(163, 167, 167);
+        transition: box-shadow 150ms linear, filter 300ms linear;
+    }
+    
+    .containerPlus:hover {
+        filter: blur(0px);
+        box-shadow: 2px 2px 15px rgb(100, 100, 100);
+    }
+    
+    .childrenInfo {
+        background-color: lightcyan;
+        width: 350px;
+        display: block;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15px;
+    }
+    
+    .marriedInfo {
+        background-color: lightcyan;
+        width: 350px;
+        display: block;
+        border-radius: 15px;
+        margin: auto;
+        padding: 15px;
+        margin: 20px auto;
+    }
+    
+    .conContainer {
+        border: 5px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .nameContainer {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .image {
+        width: 128px;
+    }
+    
+    img {
+        border-radius: 50%;
+        vertical-align: middle;
+        margin: 20px 20px 20px 0px;
+        max-width: 128px;
+        max-height: 128px;
+        width: 100%;
+        height: auto;
+    }
+    /*.footer {
     padding-left: 10px;
     padding-bottom: 15px;
 }*/
-
-.userCardContainer {
-    display: block;
-    flex-direction: column;
-    justify-content: center;
-}
+    
+    .userCardContainer {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
